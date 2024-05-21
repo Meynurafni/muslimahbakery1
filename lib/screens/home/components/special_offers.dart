@@ -13,7 +13,7 @@ class SpecialOffers extends StatelessWidget {
     return Column(
       children: [
         Padding(
-          padding: const EdgeInsets.symmetric(horizontal: 20),
+          padding: const EdgeInsets.symmetric(horizontal: 30, vertical: 10),
           child: SectionTitle(
             title: "Categories",
             press: () {},
